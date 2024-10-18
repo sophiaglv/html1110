@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap&#39');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#FFFDFB;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Boogaloo", sans-serif;
+}
+
+section{
+    background-image: url('../img/banner.png');
+    background-size: 100% 100%;
+    height: 86.5dvh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: start;
+}
+
+.menu{
+    background-color: #6946A2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 100px;
+    padding: 25px;
+    font-size: 1.5rem;
+}
+
+img{
+    width: 100px;
+}
+
+p{
+    width: 100px;
+    flex-wrap: wrap;
+}
+
+.menu2{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.centro{
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.centro h1{
+    font-size: 5.6rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-top: -40px;
+}
+
+.centro span{
+    font-size: 2rem;
+    background-color: #FEC838;
+    border-radius: 50px;
+    width: 300px;
+    text-align: center;
+    padding-inline: 30px;
+    padding-block: 10px;
+}
